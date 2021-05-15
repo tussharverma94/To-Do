@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY todo</title>
+</head>
+<body>
+    <form action="/", method = 'POST'>
+        <input name = "new_task">
+        <button type='submit'>ADD</button>
+        <p1>{{empty}}</p1>
+    </form>
+    <ul>
+        {{#each todo as |t|}}
+            <li>{{t.task}}</li>
+        {{/each}}
+    </ul>
+</body>
+</html>
+
