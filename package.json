@@ -4,9 +4,10 @@
   "description": "todo web server that fetches the whole html file from server,needs no javascript on front ",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Gaurav Verma",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
